@@ -1,0 +1,22 @@
+doctype html
+html
+	head 
+		link(rel='stylesheet', href='/css/main.css', type='text/css')
+		link(href="https://fonts.googleapis.com/css?family=Indie+Flower", rel="stylesheet")
+		script(src='/js/main.js')
+	body
+		h1 Bulletin Board
+		p Post your message
+		form(method='post' action='/send')
+			label Title
+			br
+			input(type='text', placeholder='title', name='title')
+			br
+			br
+			label Message
+			br
+			textarea(row = '20' type='text', placeholder='your message', name='body')
+			br
+			button(type='submit') SEND
+		br
+		a.button(href='/messages') SEE ALL MESSAGES

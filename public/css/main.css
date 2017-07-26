@@ -1,0 +1,36 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-size: 20pt;
+  background-image: url(../img/chalk.jpg);
+  color: white;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #d46bd6;
+  color: black;
+}
+
+.button:hover {
+  border: solid 1px #d46bd6;
+  background-color: black;
+  color: #d46bd6;
+}
+
+ul {
+  list-style: none;
+}
+
+.title {
+  color: #d46bd6;
+}
+
+label {
+  color: #d46bd6;
+}
+
+.body {
+  font-size: 15pt;
+}
